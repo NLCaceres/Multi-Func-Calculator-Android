@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_money_exch"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text_money_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_from"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+    <Spinner
+        android:id="@+id/spinner_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/label_array_currencies">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/text_money_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_to"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+    <Spinner
+        android:id="@+id/spinner_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/label_array_currencies">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/button_money_exch"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/button_conv"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text_money_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_result"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"/>
+
+</LinearLayout>

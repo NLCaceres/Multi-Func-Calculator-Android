@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Multi-Function Calculator</string>
+    <string name="button_tip">Tip Calc</string>
+    <string name="button_unit_conv">Unit Conv</string>
+    <string name="button_money_exch">Money Exch</string>
+    <string name="button_conv">Convert</string>
+    <string name="label_from">From:</string>
+    <string name="label_to">To:</string>
+    <string name="label_result">Result:</string>
+    <string name="radiobutton_centimeter">centimeters</string>
+    <string name="radiobutton_meter">meters</string>
+    <string name="radiobutton_feet">feet</string>
+    <string name="radiobutton_miles">miles</string>
+    <string name="radiobutton_kilometers">kilometers</string>
+    <string name="label_bill_amount">Bill Amount</string>
+    <string name="label_percent">Percent</string>
+    <string name="label_tip">Tip</string>
+    <string name="label_total">Total</string>
+    <string name="label_split">Split Bill?</string>
+    <string name="label_per">Per Person</string>
+    <string name="dollar_sign">$</string>
+    <string name="percent_sign">%</string>
+    <string name="label_initial">$0.00</string>
+    <string name="label_initial_percent">15%</string>
+    <string name="currency_Euro">Euro</string>
+    <string name="currency_USD">USD</string>
+    <string name="currency_Yuan">Yuan</string>
+    <string name="units_centimeter">cm</string>
+    <string name="units_meter">m</string>
+    <string name="units_feet">ft</string>
+    <string name="units_mile">mi</string>
+    <string name="units_kilometer">km</string>
+</resources>
